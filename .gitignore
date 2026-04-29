@@ -24,3 +24,4 @@ Thumbs.db
 
 .test/
 .k8s/secret.yaml
+.backend/app/__pycache__/  
