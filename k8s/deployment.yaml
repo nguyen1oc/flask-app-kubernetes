@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
       - name: flask-demo
-        image: flask-demo:v2
+        image: flask-demo:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
 
         readinessProbe:
           httpGet:
-            path: /
+            path: /db
             port: 5000
           initialDelaySeconds: 3
           periodSeconds: 5

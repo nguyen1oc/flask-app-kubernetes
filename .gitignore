@@ -21,3 +21,6 @@ Thumbs.db
 
 # Kubernetes local config (nếu có)
 .kube/
+
+.test/
+.k8s/secret.yaml
